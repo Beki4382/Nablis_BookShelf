@@ -1,7 +1,6 @@
 import express from "express";
 import userRoute from "./features/user/routes/user";
 import bookRoute from "./features/book/routes/book";
-import { Database } from "./helper/dataBase";
 import { config } from "./config/config";
 
 const app = express();
